@@ -85,7 +85,7 @@ private void WriteAttributes()
 		//  - 0 if not specified
 		{ "MajorVersion", GetDefaultVersion(projectRoot, solutionRoot).Major.ToString() },
 		{ "MinorVersion", GetDefaultVersion(projectRoot, solutionRoot).Minor.ToString() },
-		{ "PatchVersion", GetNode(projectRoot, solutionRoot, "PatchVersion", true) },
+		{ "PatchVersion", GetNode(projectRoot, solutionRoot, "PatchVersion", false) },
 		{ "BuildVersion", GetDefaultVersion(projectRoot, solutionRoot).Build.ToString() },
 		{ "RevisionVersion", GetDefaultVersion(projectRoot, solutionRoot).Revision.ToString() },
 		{ "Configuration", Configuration },
