@@ -2,6 +2,7 @@
 <VersioningScheme>
 	<MajorVersion>1</MajorVersion>
 	<MinorVersion>0</MinorVersion>
+	<!--<PatchVersion>0</PatchVersion>-->
 	<VersionCompany></VersionCompany>
 	<VersionCompanyUrl></VersionCompanyUrl>
 
@@ -20,6 +21,7 @@
 	<!-- Available variables for a custom layout are:
 	$(MajorVersion) - from this file
 	$(MinorVersion) - from this file
+	$(PatchVersion) - from this file
 	$(BUILD_NUMBER) - original number from build server / environment variable if available, otherwise 0, unless overriden in this file
 	$(Build) - BUILD_NUMBER truncated to last 3 digits
 	$(YearMonth) - yyMM
